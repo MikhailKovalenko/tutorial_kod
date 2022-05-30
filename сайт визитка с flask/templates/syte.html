@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+   <head>
+       <meta charset="utf-8">
+       <title>Коваленко Михаил</title>
+       <link rel ="stylesheet" href ="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <body>
+        <div class="main_wrapper">
+            <div id="left_block">
+                    <div class="me">
+                        <h1>Kovalenko</h1><br>
+                        <h2>Michael</h2><br>
+                        <h3>Студент университета ТОГУ факультета ФКФН группы КБ(с)-01</h3><br>
+                    </div>
+                <div class="professional_qualities">
+                    <h2>Профессиональные качества</h2><br>
+		            {%for text in text1%}
+                    <div>{{text.name}}</div><br>
+                    {%endfor%}
+                </div>
+                <div class="personal_qualities">
+                    <h2>Личные качества</h2><br>
+		          {%for text in text2%}
+                    <div>{{text.name}}</div><br>
+                  {%endfor%}
+                </div>
+            </div>
+            <div id="right_block">
+                <div class ="avatar_block">
+                    <div class="foto">
+                    </div>
+                </div>
+                <div class="contakc_me">
+                    <ul>
+                        <li>
+                            <div class="adress_vk" id="adress_vk">
+                                <label for="adress_vk">Ссылка на страницу в VK:</label>
+                                <a href="https://vk.com/id393102684" target="_blank">
+                                    <img scr="http://www.openchess.ru/img/vk_logo_s.png">
+                                </a>
+                            </div>
+                        </li>
+                        <li>
+                            <div> Номер телефона :</div> 
+                            <div>89532233585</div>
+                        </li>
+                        <li>
+                            <div>Email :</div> 
+                            <div>2020102766@pnu.edu.ru</div>
+                        </li>
+                    </ul>
+                </div>
+            </div> 
+        </div>
+    </body>
+</html>

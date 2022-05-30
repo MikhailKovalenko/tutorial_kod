@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>ForgeBox</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,100&family=Style+Script&display=swap" rel="stylesheet">
+    <meta name="description" content="Создаем множество различных украшений на заказ.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
+<!--Favicons-->
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+    <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#2d768b">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="theme-color" content="#ffffff">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+   <!--Intro-->
+    <header class="header" id="header">
+        <div class="header__inner">
+            <div class="header__logo">
+                <img class="header__img" src="img/logo.png" alt="">
+            </div>
+            <nav class="nav" id="nav">
+                <a class="nav__link" href="#" data-scroll = "#features">Особенности</a>
+                <a class="nav__link" href="#" data-scroll = "#works">Работы</a>
+                <a class="nav__link" href="#" data-scroll = "#footer">Команда</a>
+                <a class="nav__link" href="#" data-scroll = "#reviews">Отзывы</a>
+            </nav>
+            <button class="burger" type="button" id="navToogle">
+                <span class="burger__item">Menu</span>
+            </button>
+        </div>
+    </header>
+    <div class="intro" id="intro">
+        <h1 class="intro__title"> Выбирай подарки родным у нас!</h1>
+        <button class="button" type="button">Сделать Заказ</button>
+    </div>
+    <!--Features-->
+    <div class="features" id="features">
+        <div class="features__item">
+            <img class="foto" src="img/icon/icon-1.png" alt="">
+            <h1 class="item__text">Инновационные технологии изготовления ювелирных изделий.</h1>
+        </div>
+        <div class="features__item">
+            <img class="foto" src="img/icon/icon-2.png" alt="">
+            <h1 class="item__text">Применение различных методов изготовления.</h1>
+        </div>
+        <div class="features__item">
+            <img class="foto" src="img/icon/icon-3.png" alt="">
+            <h1 class="item__text">Огромное количество заказов по всей стране.</h1>
+        </div>
+        <div class="features__item">
+            <img class="foto" src="img/icon/icon-4.png" alt="">
+            <h1 class="item__text">Возможность просмотра отзывов от всех клиентов.</h1>
+        </div>
+    </div>
+    <!--Works-->
+    <div class="works" id="works">
+        <div class="works__item">
+            <img class="works__foto" src="img/works/icon-1.png" alt="">
+            <div class="works__content">
+                <div class="works__title">Колье Мандрагоры</div>
+                <div class="works__text">Антонио Ксавьер</div>
+            </div>
+        </div>
+        <div class="works__item">
+            <img class="works__foto" src="img/works/icon-2.jpeg" alt="">
+            <div class="works__content">
+                <div class="works__title">Колье Королевы</div>
+                <div class="works__text">Антонио Ксавьер</div>
+            </div>
+        </div>
+        <div class="works__item">
+            <img class="works__foto" src="img/works/icon-3.png" alt="">
+            <div class="works__content">
+                <div class="works__title">Перстень Анубиса</div>
+                <div class="works__text">Джордш Николь</div>
+            </div>
+        </div>
+        <div class="works__item">
+            <img class="works__foto" src="img/works/icon-4.jpg" alt="">
+            <div class="works__content">
+                <div class="works__title">Подвеска Элиры</div>
+                <div class="works__text">Джордш Николь</div>
+            </div>
+        </div>
+        <div class="works__item">
+            <img class="works__foto" src="img/works/icon-5.jpg" alt="">
+            <div class="works__content">
+                <div class="works__title">Кольцо Красок</div>
+                <div class="works__text">Вивальт Дром</div>
+            </div>
+        </div>
+        <div class="works__item">
+            <img class="works__foto" src="img/works/icon-6.jpg" alt="">
+            <div class="works__content">
+                <div class="works__title">Кольцо Забвения</div>
+                <div class="works__text">Вивальт Дром</div>
+            </div>
+        </div>
+    </div>
+
+<!--Reviews-->
+ <div class="reviews" id="reviews">
+      <div class="reviews__slider" id="reviewsSlider">
+            <div class="slick__item">
+                   <div class="reviews__item">
+                        <div class="reviews__foto">
+                            <img class="reviews__img" src="img/reviews/icon-1.jpg" alt="">
+                        </div>
+                        <div class="reviews__content">
+                            <div class="reviews__text">“Я очень рада что заказала подарок сестре именно у вас. Шикарный результат.”</div>
+                            <div class="reviews__autor">Елена Кортевникова</div>
+                        </div>
+                   </div>
+            </div>
+            <div class="slick__item">
+               <div class="reviews__item">
+                    <div class="reviews__foto">
+                        <img class="reviews__img" src="img/reviews/icon-2.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">“Отличное Качество.”</div>
+                        <div class="reviews__autor">Екатерина Лазарева</div>
+                    </div>
+               </div>
+           </div>
+           <div class="slick__item">
+               <div class="reviews__item">
+                    <div class="reviews__foto">
+                        <img class="reviews__img" src="img/reviews/icon-3.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">“Самый лучший сайт, на котором я заказывала.”</div>
+                        <div class="reviews__autor">Олеся Тихонова</div>
+                    </div>
+               </div>
+           </div>
+           <div class="slick__item">
+               <div class="reviews__item">
+                    <div class="reviews__foto">
+                        <img class="reviews__img" src="img/reviews/icon-4.jpg" alt="">
+                    </div>
+                    <div class="reviews__content">
+                        <div class="reviews__text">“Чудесное украшение.”</div>
+                        <div class="reviews__autor">Елезавета Боярская</div>
+                    </div>
+               </div>
+           </div>
+      </div>
+</div>
+<!--Footer-->
+    <footer class="footer" id="footer">
+        <div class="footer__content">@Мы  в социальных сетях :</div>
+            <a class="footer__icon" href="https://linkedin.com/" target="_blank">
+                <img class="footer__link" src="img/c-icon/icon-linkedin.png" alt="">
+            </a>
+            <a class="footer__icon" href="https://twitter.com/" target="_blank">
+                <img class="footer__link" src="img/c-icon/icon-twitter.png" alt="">
+            </a>
+            <a class="footer__icon" href="https://vk.com/feed" target="_blank">
+                <img class="footer__link" src="img/c-icon/icon-vk.png" alt="">
+            </a>
+    </footer>
+<!--Javascript-->
+   <script  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
