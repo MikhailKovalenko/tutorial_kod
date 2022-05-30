@@ -1,0 +1,7 @@
+C:\Users\Михаил Коваленко\source\repos\server\server\bin\Debug\server.exe.config
+C:\Users\Михаил Коваленко\source\repos\server\server\bin\Debug\server.exe
+C:\Users\Михаил Коваленко\source\repos\server\server\bin\Debug\server.pdb
+C:\Users\Михаил Коваленко\source\repos\server\server\obj\Debug\server.csprojAssemblyReference.cache
+C:\Users\Михаил Коваленко\source\repos\server\server\obj\Debug\server.csproj.CoreCompileInputs.cache
+C:\Users\Михаил Коваленко\source\repos\server\server\obj\Debug\server.exe
+C:\Users\Михаил Коваленко\source\repos\server\server\obj\Debug\server.pdb
